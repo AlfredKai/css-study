@@ -1,7 +1,9 @@
+import Button from './Button';
+
 function App() {
   return (
     <div className="App">
-      <button>Button</button>
+      <Button size="lg" text="Button" />
     </div>
   );
 }
